@@ -277,7 +277,7 @@ function RSVP() {
   return (
     <section className="rsvp sectionDark" id="rsvp">
       <div className="rsvpCard">
-        <p className="eyebrow">RSVP by July 15, 2026</p>
+        <p className="eyebrow">RSVP by July 06, 2026</p>
         <h2>We really hope you can make it ❤️</h2>
 
         <div className="progress">
