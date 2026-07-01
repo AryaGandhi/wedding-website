@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 300" role="img" aria-labelledby="title desc">
+  <title id="title">Arya and Jainam monogram</title>
+  <desc id="desc">A calligraphic AJ wedding monogram with a small heart accent.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f5d68a"/>
+      <stop offset="0.45" stop-color="#c8923f"/>
+      <stop offset="1" stop-color="#7e4e19"/>
+    </linearGradient>
+    <filter id="softShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="7" flood-color="#3a2618" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <rect width="420" height="300" fill="none"/>
+
+  <!-- soft gold swoosh -->
+  <path d="M58 207 C112 184, 167 192, 218 205 C269 218, 318 218, 363 196" fill="none" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" opacity="0.86"/>
+  <path d="M76 220 C143 206, 207 219, 257 228 C302 236, 338 226, 371 210" fill="none" stroke="#f0c66d" stroke-width="3" stroke-linecap="round" opacity="0.72"/>
+
+  <!-- monogram -->
+  <g filter="url(#softShadow)">
+    <text x="118" y="184" font-family="Cormorant Garamond, Georgia, serif" font-size="158" font-style="italic" font-weight="600" fill="#2f2928" transform="rotate(-7 118 184)">A</text>
+    <text x="202" y="188" font-family="Cormorant Garamond, Georgia, serif" font-size="160" font-style="italic" font-weight="600" fill="#2f2928" transform="rotate(5 202 188)">J</text>
+  </g>
+
+  <!-- gold highlights -->
+  <path d="M96 172 C116 124, 139 86, 174 52" fill="none" stroke="url(#gold)" stroke-width="3.2" stroke-linecap="round" opacity="0.95"/>
+  <path d="M250 178 C283 138, 306 94, 332 46" fill="none" stroke="url(#gold)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+  <!-- tiny heart -->
+  <path d="M207 147 C201 137, 185 139, 185 152 C185 166, 207 177, 207 177 C207 177, 229 166, 229 152 C229 139, 213 137, 207 147Z" fill="url(#gold)" opacity="0.9" transform="scale(.34) translate(400 260)"/>
+</svg>

@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 700 220"
+     fill="none">
+
+  <g stroke="#4f4b48"
+     stroke-width="3.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <!-- Large bird -->
+    <path d="M38 86
+             Q52 72 66 86
+             Q80 72 94 86"/>
+
+    <!-- Medium -->
+    <path d="M145 128
+             Q156 116 167 128
+             Q178 116 189 128"/>
+
+    <!-- Small -->
+    <path d="M240 72
+             Q249 63 258 72
+             Q267 63 276 72"/>
+
+    <!-- Large -->
+    <path d="M330 108
+             Q346 91 362 108
+             Q378 91 394 108"/>
+
+    <!-- Tiny -->
+    <path d="M445 56
+             Q452 49 459 56
+             Q466 49 473 56"/>
+
+    <!-- Medium -->
+    <path d="M518 150
+             Q530 137 542 150
+             Q554 137 566 150"/>
+
+    <!-- Large -->
+    <path d="M602 88
+             Q618 70 634 88
+             Q650 70 666 88"/>
+
+  </g>
+</svg>
