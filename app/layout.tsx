@@ -20,7 +20,7 @@ const script = Allura({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://YOUR-VERCEL-DOMAIN.vercel.app"),
+  metadataBase: new URL("https://arya-jainam-wedding.vercel.app/"),
 
   title: "Arya & Jainam | Malibu Wedding Weekend",
 
