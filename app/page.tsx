@@ -92,7 +92,6 @@ const memories = [
 
 const faqs = [
   ["What should I wear?", "Every event has its own vibe, so here's your excuse to dress up all weekend:\n\n🌿 Mehendi: Earthy greens, sage, olive, browns, terracotta, and other nature-inspired shades.\n\n✨ Sangeet: Time to bring the glamour! Cocktail dresses, gowns, suits, blazers, or your favorite party outfit.\n\n🌼 Haldi: Floral prints, cheerful yellows, soft pastels, and anything bright that says sunshine.\n\n💍 Wedding: Traditional Indian attire. Think lehengas, sarees, sherwanis, bandhgalas, kurtas... dress to celebrate!"],
-  ["When should I RSVP by?", "Please RSVP by July 6, 2026 so we can finalize the tiny-but-important details."],
   ["Do you have a wedding registry?", "Nope! Just bring yourselves, your best dance moves, and your appetite. Having you celebrate with us is the greatest gift we could receive."],
   ["Is this a big wedding?", "Nope. It is small, warm, and intimate. We wanted a weekend with the people closest to us."],
 ];
@@ -277,7 +276,7 @@ function RSVP() {
   return (
     <section className="rsvp sectionDark" id="rsvp">
       <div className="rsvpCard">
-        <p className="eyebrow">RSVP by July 06, 2026</p>
+        <p className="eyebrow">RSVP</p>
         <h2>We really hope you can make it ❤️</h2>
 
         <div className="progress">
